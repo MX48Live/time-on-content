@@ -39,7 +39,7 @@ const startTimer = (timebox, i) => {
   timer = setInterval(function () {
     count++
     timebox.textContent = displayDateTimeCondition(count , i)
-  }, 100)
+  }, 1000)
 }
 const stopTimer = (timebox, i) => {
   clearInterval(timer)
